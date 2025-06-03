@@ -37,7 +37,7 @@ unit_data = {
         "truemax": ["SB"]
     },
     "Dust Cleaning Machine": {
-        "dust cleaning": ["DC001"]
+        "armadillo": ["armadillo"]
     }
 }
 
