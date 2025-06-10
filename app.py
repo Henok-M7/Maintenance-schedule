@@ -2,6 +2,111 @@ import streamlit as st
 import pandas as pd
 import os
 from datetime import datetime
+# Streamlit UI
+st.title("🏗️GULF CONCRETE & BLOCKS🚧 \n 🚒Mobile Units Preventive Maintenance Schedule👷🏼‍♂️")
+with st.expander("🦺 Concrete Pumping Safety Notes", expanded=False):
+
+    st.markdown("#### 🚧 General Awareness")
+    st.markdown("""
+    - Concrete pumping involves both heavy machinery and highly technical operations.
+    - Safe operation demands more than just wearing PPE—understanding the equipment is essential.
+    - Awareness of hazards is key to applying the right safety precautions.
+    """)
+
+    st.markdown("#### ⚠️ Hose Hazards")
+    st.markdown("""
+    One of the most common hazards comes from releasing compressed air in hoses, which can whip violently and cause injury.
+    
+    - Stand back when releasing compressed air to avoid hose whipping.
+    - Avoid double-end or double-S hose attachments; they're heavier and more dangerous.
+    - Monitor air pressure at the discharge point to avoid pressure pockets.
+    """)
+
+    st.markdown("#### ⚡ Power Line Contact")
+    st.markdown("""
+    Contact with power lines is often fatal and usually due to operator error.
+
+    - Train workers on power-line safety and inspection routines.
+    - Keep at least 20 feet of clearance from all power lines.
+    - Verify and document power-line locations and stamps on every job site.
+    """)
+
+    st.markdown("#### 🧴 Concrete Burns")
+    st.markdown("""
+    Skin contact with wet cement can cause severe alkaline burns and even blood poisoning.
+
+    - Wear full PPE from head to toe to protect skin.
+    - Rinse affected skin with pH-neutral or slightly acidic solution like vinegar.
+    - Always wash concrete-contaminated clothing before reuse.
+    """)
+
+    st.markdown("#### 🔌 Electrical Issues with the Truck")
+    st.markdown("""
+    Electrical faults from poor maintenance can shock operators or disable equipment.
+
+    - Check alternator output; it should be at least 13.6 VDC.
+    - Inspect and clean battery and ground connections.
+    - Load test the battery to ensure proper amperage.
+    """)
+
+    st.markdown("#### 💧 Hydraulic Leaks")
+    st.markdown("""
+    Leaks can disable equipment, harm the environment, and pose slipping or contact hazards.
+
+    - Shut off the equipment immediately if a leak is detected.
+    - Contain and clean hydraulic fluid to prevent spread.
+    """)
+
+    st.markdown("#### 🏗️ Boom Awareness and Placement")
+    st.markdown("""
+    Improper boom handling can damage equipment or infrastructure and cause injury.
+
+    - Always be aware of the boom’s position and surroundings.
+    - Inspect for damage if the boom contacts another object.
+    - Always fold and lock boom and outriggers before moving.
+    - Never use a boom as a hoisting device.
+    """)
+
+    st.markdown("#### 🧪 Rough Mixes")
+    st.markdown("""
+    Poorly batched concrete can block hoses and compromise structural quality.
+
+    - Confirm the correct rock quantity to maintain proper flow.
+    - Ensure rocks are sized appropriately to avoid packing.
+    - Use multiple aggregate sizes for a well-flowing mix.
+    """)
+
+    st.markdown("#### 🌡️ Oil Leaks")
+    st.markdown("""
+    High-temperature oil leaks can cause burns or injection injuries.
+
+    - Never attempt to stop a pressurized oil leak by hand or rag—even with gloves.
+    - Shut down and cool the machine before addressing oil leaks.
+    """)
+
+    st.markdown("#### 🔧 Holding Valve Dangers")
+    st.markdown("""
+    Removing a pressurized holding valve can cause severe injury.
+
+    - Always verify zero pressure before removing a valve.
+    - Do not remove valves without proper boom support and rest time.
+    - Unlatch holding valves slowly and cautiously.
+    """)
+
+    st.markdown("#### 💨 Compressed Air")
+    st.markdown("""
+    Using compressed air to clear booms can result in dangerous explosions of concrete.
+
+    - Never use compressed air to clear a full boom.
+    - Always check and relieve pressure before removing clamps.
+    - Use a shovel or tool to maintain safe distance while unclamping.
+    """)
+
+    st.markdown("#### ✅ Final Reminder")
+    st.markdown("""
+    - Prioritize safety through centralized systems and daily discipline.
+    """)
+
 
 # Mapping of unit types to their available brands and unit IDs
 unit_data = {
@@ -41,8 +146,7 @@ unit_data = {
     }
 }
 
-# Streamlit UI
-st.title("🏗️GULF CONCRETE & BLOCKS🚧 \n 🚒Mobile Units Preventive Maintenance Schedule👷🏼‍♂️")
+
 
 # Step 1: Select Unit Type
 unit_type = st.selectbox("Select Mobile Unit Type:", list(unit_data.keys()))
