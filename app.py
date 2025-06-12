@@ -13,6 +13,42 @@ with st.expander("🦺 Concrete Pumping Safety Notes", expanded=False):
     - Awareness of hazards is key to applying the right safety precautions.
     """)
 
+    st.markdown("#### ✅ Before Pumping")
+    st.markdown("""
+    🟢Site & Setup Safety
+    - Conduct a pre-operation **site inspection**: check terrain, slope, and obstructions.
+    - Verify that **ground is stable and level** for outriggers; use pads or cribbing if needed.
+    - Ensure proper **lighting conditions** are available, especially for early/late work.
+    - Check that all crew members are equipped with full **PPE** (helmet, vest, gloves, boots, goggles).
+    - Inspect **hoses, clamps, and lines** for cracks, wear, or corrosion.
+    - Confirm the **hopper grate is secure** and never removed during operation.
+    - Test **emergency stop buttons** and **reverse mode functionality**.
+    - Verify the **agitator and remote control** are working properly before starting.
+    """)
+
+    st.markdown("#### 🟡 During Pumping")
+    st.markdown("""
+    - Maintain **constant visual or radio contact** between pump operator and crew.
+    - Never place hands or tools into the **hopper while the pump is running**.
+    - Regularly monitor **system pressure** and shut down if pressure spikes unexpectedly.
+    - Ensure **only trained personnel** are near the pump during operation.
+    - Resume pumping only after clearly **communicating with all crew**.
+    - Watch for signs of **blockage** (e.g., loss of flow, erratic cycling) and stop operation before troubleshooting.
+    - Never allow unauthorized or untrained individuals near the boom or line during a pour.
+    """)
+
+    st.markdown("#### 🔴 After Pumping")
+    st.markdown("""
+    ✅ Shutdown & Cleanup Safety
+    - **Relieve pressure** before disconnecting or cleaning any part of the pump or line.
+    - Clean lines using **low-pressure water** or **approved sponge/slurry balls**—avoid high-pressure air unless designed for it.
+    - Fully **fold and lock** all boom sections and outriggers before moving the truck.
+    - **Power off and disconnect remotes** to prevent accidental activation.
+    - Log any **maintenance issues or hazards** noted during operation.
+    - Recheck all components before storage or relocation to avoid next-job risks.
+    """)
+
+
     st.markdown("#### ⚠️ Hose Hazards")
     st.markdown("""
     One of the most common hazards comes from releasing compressed air in hoses, which can whip violently and cause injury.
