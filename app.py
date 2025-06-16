@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 # Streamlit UI
 st.title("🏗️GULF CONCRETE & BLOCKS🚧 \n 🚒Mobile Units Preventive Maintenance Schedule👷🏼‍♂️")
-with st.expander("🦺 Concrete Pumping Safety Notes", expanded=False):
+with st.expander("🦺 Concrete Pump Safety Notes", expanded=False):
 
     st.markdown("#### 🚧 General Awareness")
     st.markdown("""
