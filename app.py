@@ -4,9 +4,10 @@ import os
 from datetime import datetime
 # Streamlit UI
 st.title("🏗️GULF CONCRETE & BLOCKS🚧")
+st.subheader("American University of Ras Al-khaimah")
 st.subheader("🚒Mobile Units Preventive Maintenance Schedule👷🏼‍♂️")
 st.write("By: Sara Tesfaye &  Henok Mundino")
-st.write("American University of Ras Al-khaimah")
+
 with st.expander("🦺 Concrete Pump Safety Notes", expanded=False):
 
     st.markdown("#### 🚧 General Awareness")
