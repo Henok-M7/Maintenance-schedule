@@ -3,7 +3,7 @@ import pandas as pd
 import os
 from datetime import datetime
 # Streamlit UI
-st.title("🏗️GULF CONCRETE & BLOCKS🚧)
+st.title("🏗️GULF CONCRETE & BLOCKS🚧")
 st.subheader("🚒Mobile Units Preventive Maintenance Schedule👷🏼‍♂️")
 st.write("By: Sara Tesfaye &  Henok Mundino")
 st.write("American University of Ras Al-khaimah")
